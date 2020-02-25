@@ -1,0 +1,27 @@
+## Open your terminal in your project directory then run below commands
+
+
+## First run:
+=========================
+
+rm -rf node_modules
+rm package-lock.json yarn.lock
+npm cache clear --force
+
+
+## Then run the command
+=======================
+npm install cross-env
+npm install 
+
+
+
+## and finally run to develop
+=============================
+npm run dev
+or 
+npm run watch
+
+
+
+## Hope it will solve your problem....
